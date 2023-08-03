@@ -1,1 +1,33 @@
-/*# sourceMappingURL=home.css.map */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.625rem 0.9375rem;
+  font-size: 1em;
+}
+header nav .nav_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav .nav_right a {
+  color: #444;
+  padding: 0px 0.625rem;
+  margin: 0px 0.3125rem;
+  font-size: 1.1em;
+}
+header nav .register-login-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #666;
+  padding: 0.3125rem 0.5rem;
+  border-radius: 5px;
+}
+header nav .register-login-btn i {
+  margin: 0.4375 rem;
+  color: #444;
+}
+header nav .register-login-btn a {
+  color: #444;
+  margin: 0rem 0.625rem;
+}/*# sourceMappingURL=home.css.map */

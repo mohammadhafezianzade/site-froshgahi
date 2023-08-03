@@ -1,0 +1,38 @@
+header{
+    nav{
+        display: flex;
+        justify-content:space-between;
+        padding: 0.625rem 0.9375rem;
+        font-size: 1em;
+
+        .nav_right{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a{
+                color:#444;
+                padding:0px .625rem ;
+                margin:0px 0.3125rem;
+                font-size: 1.1em;
+            }
+        }
+        .register-login-btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #666;
+            padding: 0.3125rem .5rem;
+            border-radius: 5px;
+
+            i{
+                margin:0.4375 rem;
+                color: #444;
+            }
+
+            a{
+                color: #444;
+                margin: 0rem .625rem;
+            }
+        }
+    }
+}
