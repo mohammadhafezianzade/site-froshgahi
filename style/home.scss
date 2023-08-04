@@ -21,18 +21,63 @@ header{
             justify-content: center;
             align-items: center;
             border: 1px solid #666;
-            padding: 0.3125rem .5rem;
+            padding: 0.5125rem .5rem;
             border-radius: 5px;
 
             i{
                 margin:0.4375 rem;
                 color: #444;
+                font-size: 1.1em;
             }
 
             a{
                 color: #444;
-                margin: 0rem .625rem;
+                margin: 0 .625rem;
+                font-size: .9em;
             }
         }
+    }
+    .slider{
+        position: relative;
+        font-size: 1em;
+        .slides{
+
+           .item{
+            position: relative;
+            display: none;
+          
+            img{
+                width: 100%;
+                height: 38rem;
+                object-fit:cover;
+            }
+            span{
+                 position: absolute;
+                 left: 10%;
+                 top: 22%;
+                 font-size: 1.5rem;
+                 color: #222;
+            }
+
+        } 
+        .item.active{
+                 display:block;
+              }
+        }
+        .buttoms{
+            position: absolute;
+            bottom: 30px;
+            left: 40px;
+            z-index: 1;
+             i{
+                color:white;
+                margin: 2px;
+                cursor: pointer;
+             }
+             i:hover{
+                color:rgba(50, 48, 48, 0.4);
+             }
+        }
+
     }
 }

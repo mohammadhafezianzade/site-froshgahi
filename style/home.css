@@ -20,14 +20,54 @@ header nav .register-login-btn {
   justify-content: center;
   align-items: center;
   border: 1px solid #666;
-  padding: 0.3125rem 0.5rem;
+  padding: 0.5125rem 0.5rem;
   border-radius: 5px;
 }
 header nav .register-login-btn i {
   margin: 0.4375 rem;
   color: #444;
+  font-size: 1.1em;
 }
 header nav .register-login-btn a {
   color: #444;
-  margin: 0rem 0.625rem;
+  margin: 0 0.625rem;
+  font-size: 0.9em;
+}
+header .slider {
+  position: relative;
+  font-size: 1em;
+}
+header .slider .slides .item {
+  position: relative;
+  display: none;
+}
+header .slider .slides .item img {
+  width: 100%;
+  height: 38rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+header .slider .slides .item span {
+  position: absolute;
+  left: 10%;
+  top: 22%;
+  font-size: 1.5rem;
+  color: #222;
+}
+header .slider .slides .item.active {
+  display: block;
+}
+header .slider .buttoms {
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+  z-index: 1;
+}
+header .slider .buttoms i {
+  color: white;
+  margin: 2px;
+  cursor: pointer;
+}
+header .slider .buttoms i:hover {
+  color: rgba(50, 48, 48, 0.4);
 }/*# sourceMappingURL=home.css.map */
