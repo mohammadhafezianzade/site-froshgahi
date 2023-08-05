@@ -11,6 +11,7 @@
     <link rel="preconnect" href="//v1.fontapi.ir">
     <link href="https://v1.fontapi.ir/css/Yekan" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/animated.css">
 </head>
 <body>
     <header>
@@ -29,7 +30,7 @@
         </nav>
         <section class="slider">
             <div class="slides">
-                <div class="item active " id="slide1">
+                <div class="item active animate__fadeIn" id="slide1">
                     <img src="./photo/air-jordan1.JPEG" alt="">
                     <span>کتونی که همه باید داشته باشن</span>
                 </div>
@@ -43,11 +44,12 @@
                 </div>
             </div>
             <div class="buttoms">
-                <i class="fa-solid fa-circle"></i>
-                <i class="fa-solid fa-circle"></i>
-                <i class="fa-solid fa-circle"></i>
+                <i onclick="setSlide('slide1',1)" class="fa-solid fa-circle" ></i>
+                <i onclick="setSlide('slide2',2)" class="fa-solid fa-circle" ></i>
+                <i onclick="setSlide('slide3',3)" class="fa-solid fa-circle" ></i>
             </div>
         </section>
     </header>
+    <script src="./js/main.js"></script>
 </body>
 </html>

@@ -62,6 +62,8 @@ header{
         } 
         .item.active{
                  display:block;
+                 animation-name:fade-in;
+                 animation-duration: 2s;
               }
         }
         .buttoms{

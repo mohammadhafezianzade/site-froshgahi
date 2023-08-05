@@ -56,6 +56,8 @@ header .slider .slides .item span {
 }
 header .slider .slides .item.active {
   display: block;
+  animation-name: fade-in;
+  animation-duration: 2s;
 }
 header .slider .buttoms {
   position: absolute;
