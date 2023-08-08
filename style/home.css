@@ -145,10 +145,83 @@ main .home-page-product-section .shopping-card .buttons .left .extend-btn .b-tex
 }
 main .home-page-product-section .shopping-card .buttons .left .extend-btn .b-icon {
   color: white;
+  padding-top: 3px;
 }
 main .home-page-product-section .shopping-card .buttons .left .extend-btn:hover {
   width: 100px;
 }
 main .home-page-product-section .shopping-card .buttons .left .extend-btn:hover .b-text {
   display: block;
+}
+main .supper-offer-section {
+  padding: 20px;
+  font-size: 1rem;
+}
+main .supper-offer-section .supper-offer-box {
+  text-align: center;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin: 0px 10px;
+}
+main .supper-offer-section .supper-offer-box .title {
+  background-color: #e74c3c;
+  color: white;
+  padding: 8px 30px;
+  display: inline-block;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+main .supper-offer-section .supper-offer-box .body .image-container {
+  text-align: center;
+  padding: 30px;
+}
+main .supper-offer-section .supper-offer-box .body .image-container img {
+  width: 100%;
+}
+main .supper-offer-section .supper-offer-box .body .spasification {
+  padding: 30px 5pxs;
+}
+main .supper-offer-section .supper-offer-box .body .spasification .price-row {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .supper-offer-section .supper-offer-box .body .spasification .price-row .price {
+  margin-left: 60px;
+  color: #444;
+  font-size: 1.2rem;
+}
+main .supper-offer-section .supper-offer-box .body .spasification .price-row .offer {
+  color: white;
+  background-color: #e74c3c;
+  padding: 5px 20px;
+  border-radius: 25px;
+}
+main .supper-offer-section .supper-offer-box .body .spasification .title-name {
+  margin: 60px 0;
+  font-weight: bold;
+  color: #444;
+  font-size: 1.4rem;
+}
+main .supper-offer-section .supper-offer-box .body .spasification .counter-down {
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  margin: 10px 40px;
+  padding-top: 20px;
+  font-weight: bold;
+  color: #666;
+  font-size: 1.5rem;
+}
+main .supper-offer-section .supper-offer-box .body .spasification .remaining-down {
+  color: #777;
+  font-size: 0.8rem;
+}
+main .supper-offer-section .banner {
+  text-align: center;
+  padding: 0px 5px;
+}
+main .supper-offer-section .banner img {
+  border-radius: 5px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  width: 80%;
 }/*# sourceMappingURL=home.css.map */
