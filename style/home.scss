@@ -342,5 +342,49 @@ span{
     border-bottom: 1.5px solid #e74c3c;
 }
  }
+ footer{
+    background-color:  #636e72;
+    font-size:1rem;
+    .right{
+        padding:3rem;
+        .title{
+            padding: 1.3rem 0rem;
+            color: white;
+            font-size:1.2rem ;
+
+        }
+        .des{
+            color: rgba(255,255,255,.7);
+            line-height: 1.5em;
+            font-size:.9em;
+        }
+    }
+    .left{
+        padding: 3rem;
+        .title{
+            padding: 1.3rem 0rem;
+            font-size: 1.2em;
+            color: white;
+        }
+        .socials{
+            display: flex;
+            justify-content: space;
+            align-items: center;
+            
+            a{
+                color: white;
+                font-size: 1.5em;
+                margin-top: 1.125rem;
+            }
+        }
+    }
+    .bottom{
+        background-color: #2d3436;
+        text-align: center;
+        padding: .9rem;
+        color: rgba(255,255,255,.9);
+        font-size: .9rem;
+    }
+}
  
 
