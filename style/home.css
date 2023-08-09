@@ -224,4 +224,97 @@ main .supper-offer-section .banner img {
   border-radius: 5px;
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
   width: 80%;
+}
+
+.owl-stage-outer {
+  direction: ltr;
+}
+
+.dragble-list {
+  padding: 20px 10px;
+  font-size: 1rem;
+}
+.dragble-list .shopping-card {
+  text-align: center;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  margin: 10px 15px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.dragble-list .shopping-card .img-sec {
+  position: relative;
+}
+.dragble-list .shopping-card .img-sec img {
+  width: 90%;
+}
+.dragble-list .shopping-card .img-sec .hot-offer {
+  background-color: #e74c3c;
+  color: white;
+  padding: 3px 5px;
+  border-radius: 5px;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 0.9rem;
+}
+.dragble-list .shopping-card .img-sec .stars {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+.dragble-list .shopping-card .img-sec .stars i {
+  color: #f1c40f;
+}
+.dragble-list .shopping-card .title {
+  color: #444;
+  margin: 15px;
+}
+.dragble-list .shopping-card .buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.dragble-list .shopping-card .buttons .right .price {
+  color: #666;
+  font-weight: bold;
+}
+.dragble-list .shopping-card .buttons .left {
+  display: flex;
+}
+.dragble-list .shopping-card .buttons .left .extend-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5px;
+  background-color: #2ecc71;
+  color: white;
+  width: 40px;
+  padding: 8px 12px;
+  border-radius: 25px;
+  transition: 0.75s;
+  cursor: pointer;
+}
+.dragble-list .shopping-card .buttons .left .extend-btn .b-text {
+  display: none;
+  color: white;
+}
+.dragble-list .shopping-card .buttons .left .extend-btn .b-icon {
+  color: white;
+  padding-top: 3px;
+}
+.dragble-list .shopping-card .buttons .left .extend-btn:hover {
+  width: 100px;
+}
+.dragble-list .shopping-card .buttons .left .extend-btn:hover .b-text {
+  display: block;
+}
+
+.dragble-list .title {
+  padding: 0rem 1.25rem 1.25rem;
+}
+.dragble-list .title span {
+  font-size: 1.2em;
+  color: #444;
+  border-bottom: 1.5px solid #e74c3c;
 }/*# sourceMappingURL=home.css.map */
