@@ -167,17 +167,17 @@ header{
                 }
             }
      .supper-offer-section{
-        padding: 20px;
+        padding: 1.25rem;
         font-size: 1rem;
         .supper-offer-box{
             text-align: center;
             box-shadow: 0px 2px 8px 0px rgba(0,0,0,.2);
             border-radius: 5px;
-            margin:0px 10px;
+            margin:0rem .625rem;
             .title{
                 background-color: #e74c3c;
                 color: white;
-                padding: 8px 30px;
+                padding: .5rem 1.875rem;
                 display: inline-block;
                 border-bottom-right-radius: 20px;
                 border-bottom-left-radius: 20px;
@@ -186,42 +186,42 @@ header{
 
                 .image-container{
                     text-align: center;
-                    padding: 30px;
+                    padding: 1.875rem;
                     img{
                         width: 100%;
                     }
                 }
                 .spasification{
-                    padding: 30px 5pxs;
+                    padding: 1.875rem .3125rem;
                     .price-row{
-                        margin-top: 50px;
+                        margin-top: 3.125rem;
                         display: flex;
                         justify-content: center;
                         align-items: center;
                         .price{
-                            margin-left: 60px;
+                            margin-left: 3.75rem;
                             color: #444;
                             font-size: 1.2rem;
                         }
                         .offer{
                             color: white;
                             background-color: #e74c3c;
-                            padding: 5px 20px;
+                            padding: .3125rem 1.25rem;
                             border-radius: 25px;
 
                         }
 
                     }
                     .title-name{
-                        margin: 60px 0;
+                        margin: 3.75rem 0;
                         font-weight: bold;
                         color: #444;
                         font-size: 1.4rem;
                     }
                     .counter-down{
                         border-top: 1px solid rgba(0,0,0,.4);
-                        margin: 10px 40px;
-                        padding-top: 20px;
+                        margin: .625rem 2.5rem;
+                        padding-top: 1.25rem;
                         font-weight: bold;
                         color: #666;
                         font-size: 1.5rem;
@@ -239,7 +239,7 @@ header{
         }
         .banner{
             text-align: center;
-            padding: 0px 5px;
+            padding: 0px .3125rem;
             img{
                border-radius: 5px;
                box-shadow:0px 2px 8px 0px rgba(0,0,0,.2); 
@@ -247,4 +247,7 @@ header{
             }
         }
     }
+}
+@media  (max-width:64rem) and (min-width:48rem){
+  
 }

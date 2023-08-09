@@ -1,4 +1,20 @@
 let SlideIndex = 1;
+let rimainingTime=70000;
+function setTime(){
+  if (rimainingTime==0) return;
+  let h=Math.floor(rimainingTime/3600);
+  let m = Math.floor((rimainingTime%3600)/60);
+  let s = Math.floor((rimainingTime%3600)%60);
+  document.querySelector("#h").innerHTML=h;
+  document.querySelector("#m").innerHTML=m;
+  document.querySelector("#s").innerHTML=s;
+}
+setInterval(()=>{
+rimainingTime-=1
+setTime();
+},1000)
+
+
 function setSlide(input,index){
     SlideIndex = index;
     let item = document.querySelector(`#${input}`);
