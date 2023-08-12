@@ -11,8 +11,8 @@ header nav .nav_right {
 }
 header nav .nav_right a {
   color: #444;
-  padding: 0px 0.625rem;
-  margin: 0px 0.3125rem;
+  padding: 0rem 0.525rem;
+  margin: 0rem 0.125rem;
   font-size: 1.1em;
 }
 header nav .register-login-btn {
@@ -20,7 +20,7 @@ header nav .register-login-btn {
   justify-content: center;
   align-items: center;
   border: 1px solid #666;
-  padding: 0.5125rem 0.5rem;
+  padding: 0.4125rem 0.8rem;
   border-radius: 5px;
 }
 header nav .register-login-btn i {
@@ -32,6 +32,21 @@ header nav .register-login-btn a {
   color: #444;
   margin: 0 0.625rem;
   font-size: 0.9em;
+}
+@media (max-width: 332px) and (min-width: 319px) {
+  header .register-login-btn {
+    font-size: 0.85rem;
+    padding: 0.2125rem 0.5rem;
+    font-weight: bold;
+  }
+}
+@media (max-width: 332px) and (min-width: 319px) {
+  header .nav-right-item {
+    padding: 0rem 0.325rem !important;
+    margin: 0rem 0.1rem !important;
+    font-size: 0.9rem !important;
+    font-weight: bold;
+  }
 }
 header .slider {
   position: relative;
@@ -61,13 +76,13 @@ header .slider .slides .item.active {
 }
 header .slider .buttoms {
   position: absolute;
-  bottom: 30px;
-  left: 40px;
+  bottom: 1.875rem;
+  left: 2.5rem;
   z-index: 1;
 }
 header .slider .buttoms i {
   color: white;
-  margin: 2px;
+  margin: 0.125rem;
   cursor: pointer;
 }
 header .slider .buttoms i:hover {
@@ -75,15 +90,15 @@ header .slider .buttoms i:hover {
 }
 
 main .home-page-product-section {
-  padding: 20px 10px;
+  padding: 1.5rem 0.625rem;
   font-size: 1rem;
 }
 main .home-page-product-section .shopping-card {
   text-align: center;
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
-  margin: 10px 15px;
+  margin: 0.625rem 0.9375rem;
   border-radius: 5px;
-  padding: 10px;
+  padding: 0.625rem;
 }
 main .home-page-product-section .shopping-card .img-sec {
   position: relative;
@@ -94,30 +109,30 @@ main .home-page-product-section .shopping-card .img-sec img {
 main .home-page-product-section .shopping-card .img-sec .hot-offer {
   background-color: #e74c3c;
   color: white;
-  padding: 3px 5px;
+  padding: 0.1875rem 0.3125rem;
   border-radius: 5px;
   position: absolute;
-  right: 20px;
-  top: 10px;
+  right: 1.5rem;
+  top: 0.625rem;
   font-size: 0.9rem;
 }
 main .home-page-product-section .shopping-card .img-sec .stars {
   position: absolute;
-  top: 10px;
-  left: 20px;
+  top: 0.625rem;
+  left: 1.5rem;
 }
 main .home-page-product-section .shopping-card .img-sec .stars i {
   color: #f1c40f;
 }
 main .home-page-product-section .shopping-card .title {
   color: #444;
-  margin: 15px;
+  margin: 0.9375rem;
 }
 main .home-page-product-section .shopping-card .buttons {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 0.625rem 1.5rem;
 }
 main .home-page-product-section .shopping-card .buttons .right .price {
   color: #666;
@@ -130,11 +145,11 @@ main .home-page-product-section .shopping-card .buttons .left .extend-btn {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 5px;
+  margin-left: 0.3125rem;
   background-color: #2ecc71;
   color: white;
-  width: 40px;
-  padding: 8px 12px;
+  width: 2.5rem;
+  padding: 0.5rem 0.75rem;
   border-radius: 25px;
   transition: 0.75s;
   cursor: pointer;
@@ -145,10 +160,10 @@ main .home-page-product-section .shopping-card .buttons .left .extend-btn .b-tex
 }
 main .home-page-product-section .shopping-card .buttons .left .extend-btn .b-icon {
   color: white;
-  padding-top: 3px;
+  padding-top: 0.1875rem;
 }
 main .home-page-product-section .shopping-card .buttons .left .extend-btn:hover {
-  width: 100px;
+  width: 6.25rem;
 }
 main .home-page-product-section .shopping-card .buttons .left .extend-btn:hover .b-text {
   display: block;
@@ -231,15 +246,15 @@ main .supper-offer-section .banner img {
 }
 
 .dragble-list {
-  padding: 20px 10px;
+  padding: 1.5rem 0.625rem;
   font-size: 1rem;
 }
 .dragble-list .shopping-card {
   text-align: center;
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
-  margin: 10px 15px;
+  margin: 0.625rem 0.9375rem;
   border-radius: 5px;
-  padding: 10px;
+  padding: 0.625rem;
 }
 .dragble-list .shopping-card .img-sec {
   position: relative;
@@ -253,27 +268,27 @@ main .supper-offer-section .banner img {
   padding: 3px 5px;
   border-radius: 5px;
   position: absolute;
-  right: 20px;
-  top: 10px;
+  right: 1.5rem;
+  top: 0.625rem;
   font-size: 0.9rem;
 }
 .dragble-list .shopping-card .img-sec .stars {
   position: absolute;
-  top: 10px;
-  left: 20px;
+  top: 0.625rem;
+  left: 1.5rem;
 }
 .dragble-list .shopping-card .img-sec .stars i {
   color: #f1c40f;
 }
 .dragble-list .shopping-card .title {
   color: #444;
-  margin: 15px;
+  margin: 0.9375rem;
 }
 .dragble-list .shopping-card .buttons {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 0.625rem 1.5rem;
 }
 .dragble-list .shopping-card .buttons .right .price {
   color: #666;
@@ -289,8 +304,8 @@ main .supper-offer-section .banner img {
   margin-left: 5px;
   background-color: #2ecc71;
   color: white;
-  width: 40px;
-  padding: 8px 12px;
+  width: 2.5rem;
+  padding: 0.5rem 0.75rem;
   border-radius: 25px;
   transition: 0.75s;
   cursor: pointer;

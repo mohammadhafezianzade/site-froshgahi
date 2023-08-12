@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="panel">
+        <div id="right">
+            <section class="menu">
+                <div class="user-info">
+                    <div class="img-name">
+                        <img src="./photo/profile.jpg" alt="">
+                        <span class="name">محمد</span>
+                        <i class="fas fa-angle-up" onclick="toggleUserDetails()"></i>
+                    </div>
+                    <div class="details">
+                        <div class="details-item">
+                            <span>سطح دسترسی</span>
+                            <span>ادمین</span>
+                        </div>
+                        <div class="details-item">
+                            <span>وضعیت</span>
+                            <span>آنلاین</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-btns">
+                    <a href="" class="item">
+                        <i class="fa-solid fa-box-open"></i>
+                        <span>محصولات</span>
+                    </a>
+                </div>
+                <div class="menu-btns">
+                    <a href="" class="item">
+                        <i class="fa-solid fa-clipboard-list"></i>
+                        <span>سفارش ها</span>
+                    </a>
+                </div>
+                <div class="menu-btns">
+                    <a href="" class="item">
+                        <i class="fa-solid fa-chart-column"></i>
+                        <span>گزارش ها</span>
+                    </a>
+                </div>
+                <div class="menu-btns">
+                    <a href="" class="item">
+                        <i class="fa-solid fa-headset"></i>
+                        <span>پشتیبانی</span>
+                    </a>
+                </div>
+                <div class="menu-btns">
+                    <a href="" class="item">
+                        <i class="fa-solid fa-users"></i>
+                        <span>کاربرها</span>
+                    </a>
+                </div>
+            </section>
+        </div>
+        <div id="left">
+            <div class="main-box">
+                <header>
+                    <nav>
+                        <div class="right">
+                            <i class="fas fa-bell" onclick="togglePanel()"></i>
+                            <div class="search">
+                                <input type="text">
+                                <i class="fas fa-cog"></i>
+                            </div>
+                        </div>
+                        <div class="left">
+                        <a href=""><i class="fas fa-bell"></i></a>
+                        <a href=""><i class="fas fa-cog"></i></a>
+                        <a href=""><i class="fas fa-power-off"></i></a>
+                        </div>
+                    </nav>
+                    <div class="header-massage">
+                        <h3>آحرین ورود دو روز پیش</h3>
+                        <a href="" class="lang-btn">فارسی</a>
+                    </div>
+                </header>
+                <div class="holder">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="right">
+                                <i class="fas fa-clipboard-list"></i>
+                            </div>
+                            <div class="left"><span>تکمیل انبار</span>
+                            <span>400</span>
+                        </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="right">
+                                <i class="fa-solid fa-cube"></i>
+                            </div>
+                            <div class="left"><span>محصولات</span>
+                            <span>400</span>
+                        </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="right">
+                                <i class="fa-solid fa-truck"></i>
+                            </div>
+                            <div class="left"><span>تحویل پست</span>
+                            <span>50</span>
+                        </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="right">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+                            <div class="left"><span>تصویه</span>
+                            <span>50000</span>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="revenue-box">
+                        <div class="head">  
+                            <div class="right">درامد</div>
+                            <div class="left">
+                                <i class="fas fa-cog"></i>
+                                <i class="fas fa-redo"></i></div>
+                          </div>
+                                <div class="content">
+                                    <convas id="myChart" width="300" height="150"></convas>
+                                </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
