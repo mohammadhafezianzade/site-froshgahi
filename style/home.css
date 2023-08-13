@@ -57,17 +57,19 @@ header .slider .slides .item {
   display: none;
 }
 header .slider .slides .item img {
-  width: 100%;
-  height: 38rem;
+  width: 100vw;
+  height: 80vh;
   -o-object-fit: cover;
      object-fit: cover;
 }
 header .slider .slides .item span {
   position: absolute;
-  left: 10%;
-  top: 22%;
+  right: 3%;
+  top: 18%;
   font-size: 1.5rem;
-  color: #222;
+  color: #F1C40F;
+  font-weight: bold;
+  text-shadow: 0px 2px 8px 0px rgba(218, 190, 32, 0.2);
 }
 header .slider .slides .item.active {
   display: block;
@@ -89,6 +91,37 @@ header .slider .buttoms i:hover {
   color: rgba(50, 48, 48, 0.4);
 }
 
+@media (min-width: 650px) and (max-width: 1013px) {
+  .media-change2 {
+    font-size: 1.1rem !important;
+    right: 3% !important;
+    top: 15% !important;
+  }
+  .media-change1 {
+    font-size: 1.5rem !important;
+    right: 42% !important;
+    top: 87% !important;
+  }
+}
+@media (min-width: 420px) and (max-width: 649px) {
+  .media-change2 {
+    font-size: 1.5rem !important;
+    right: 3% !important;
+    top: 13% !important;
+  }
+  .media-change1 {
+    font-size: 1.5rem !important;
+    right: 20% !important;
+    top: 83% !important;
+  }
+}
+@media (min-width: 0px) and (max-width: 420px) {
+  .media-change1 {
+    font-size: 1.2rem !important;
+    right: 20% !important;
+    top: 83% !important;
+  }
+}
 main .home-page-product-section {
   padding: 1.5rem 0.625rem;
   font-size: 1rem;
@@ -115,6 +148,14 @@ main .home-page-product-section .shopping-card .img-sec .hot-offer {
   right: 1.5rem;
   top: 0.625rem;
   font-size: 0.9rem;
+}
+@media (max-width: 867px) and (min-width: 570px) {
+  main .home-page-product-section .shopping-card .img-sec .hot-offer {
+    right: 2.5rem;
+  }
+  main .home-page-product-section .shopping-card .img-sec .stars {
+    left: 2rem !important;
+  }
 }
 main .home-page-product-section .shopping-card .img-sec .stars {
   position: absolute;
@@ -169,7 +210,7 @@ main .home-page-product-section .shopping-card .buttons .left .extend-btn:hover 
   display: block;
 }
 main .supper-offer-section {
-  padding: 1.25rem;
+  padding: 20px;
   font-size: 1rem;
 }
 main .supper-offer-section .supper-offer-box {
@@ -233,12 +274,12 @@ main .supper-offer-section .supper-offer-box .body .spasification .remaining-dow
 }
 main .supper-offer-section .banner {
   text-align: center;
-  padding: 0px 0.3125rem;
+  padding: 0px 5px;
 }
 main .supper-offer-section .banner img {
   border-radius: 5px;
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
-  width: 80%;
+  width: 60%;
 }
 
 .owl-stage-outer {

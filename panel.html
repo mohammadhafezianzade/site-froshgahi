@@ -1,136 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link rel="stylesheet" href="./panel.css" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/flexboxgrid.css" />
 
     <title>Document</title>
-</head>
-<body>
-    <div id="panel">
-        <div id="right">
-            <section class="menu">
-                <div class="user-info">
-                    <div class="img-name">
-                        <img src="./photo/profile.jpg" alt="">
-                        <span class="name">محمد</span>
-                        <i class="fas fa-angle-up" onclick="toggleUserDetails()"></i>
-                    </div>
-                    <div class="details">
-                        <div class="details-item">
-                            <span>سطح دسترسی</span>
-                            <span>ادمین</span>
-                        </div>
-                        <div class="details-item">
-                            <span>وضعیت</span>
-                            <span>آنلاین</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="menu-btns">
-                    <a href="" class="item">
-                        <i class="fa-solid fa-box-open"></i>
-                        <span>محصولات</span>
-                    </a>
-                </div>
-                <div class="menu-btns">
-                    <a href="" class="item">
-                        <i class="fa-solid fa-clipboard-list"></i>
-                        <span>سفارش ها</span>
-                    </a>
-                </div>
-                <div class="menu-btns">
-                    <a href="" class="item">
-                        <i class="fa-solid fa-chart-column"></i>
-                        <span>گزارش ها</span>
-                    </a>
-                </div>
-                <div class="menu-btns">
-                    <a href="" class="item">
-                        <i class="fa-solid fa-headset"></i>
-                        <span>پشتیبانی</span>
-                    </a>
-                </div>
-                <div class="menu-btns">
-                    <a href="" class="item">
-                        <i class="fa-solid fa-users"></i>
-                        <span>کاربرها</span>
-                    </a>
-                </div>
-            </section>
-        </div>
-        <div id="left">
-            <div class="main-box">
-                <header>
-                    <nav>
-                        <div class="right">
-                            <i class="fas fa-bell" onclick="togglePanel()"></i>
-                            <div class="search">
-                                <input type="text">
-                                <i class="fas fa-cog"></i>
-                            </div>
-                        </div>
-                        <div class="left">
-                        <a href=""><i class="fas fa-bell"></i></a>
-                        <a href=""><i class="fas fa-cog"></i></a>
-                        <a href=""><i class="fas fa-power-off"></i></a>
-                        </div>
-                    </nav>
-                    <div class="header-massage">
-                        <h3>آحرین ورود دو روز پیش</h3>
-                        <a href="" class="lang-btn">فارسی</a>
-                    </div>
-                </header>
-                <div class="holder">
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <div class="right">
-                                <i class="fas fa-clipboard-list"></i>
-                            </div>
-                            <div class="left"><span>تکمیل انبار</span>
-                            <span>400</span>
-                        </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="right">
-                                <i class="fa-solid fa-cube"></i>
-                            </div>
-                            <div class="left"><span>محصولات</span>
-                            <span>400</span>
-                        </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="right">
-                                <i class="fa-solid fa-truck"></i>
-                            </div>
-                            <div class="left"><span>تحویل پست</span>
-                            <span>50</span>
-                        </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="right">
-                                <i class="fa-solid fa-dollar-sign"></i>
-                            </div>
-                            <div class="left"><span>تصویه</span>
-                            <span>50000</span>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="revenue-box">
-                        <div class="head">  
-                            <div class="right">درامد</div>
-                            <div class="left">
-                                <i class="fas fa-cog"></i>
-                                <i class="fas fa-redo"></i></div>
-                          </div>
-                                <div class="content">
-                                    <convas id="myChart" width="300" height="150"></convas>
-                                </div>
-                    </div>
-                </div>
+  </head>
+  <body>
+    <div id="panel" class="panel">
+      <div id="right">
+        <section class="menu">
+          <div class="user-info">
+            <div class="img-name">
+              <img src="./photo/" alt="" />
+              <span class="name">محمد</span>
+              <i onclick="toggleUserDetails()" class="fas fa-angle-up"></i>
             </div>
-            
-        </div>
+            <div class="details">
+              <div class="details-item">
+                <span> سطح دسترسی :</span>
+                <span> ادمین</span>
+              </div>
+              <div class="details-item">
+                <span> وضعیت : </span>
+                <span>آنلاین</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-btns">
+            <a class="item" href="">
+              <i class="fas fa-bell"></i>
+              <span>محصولات</span>
+            </a>
+            <a class="item item-active" href="">
+              <i class="fas fa-bell"></i>
+              <span>سفارش ها</span>
+            </a>
+            <a class="item" href="">
+              <i class="fas fa-bell"></i>
+              <span>گزارش ها</span>
+            </a>
+            <a class="item" href="">
+              <i class="fas fa-bell"></i>
+              <span>پشتیبانی</span>
+            </a>
+            <a class="item" href="">
+              <i class="fas fa-bell"></i>
+              <span>کاربر ها</span>
+            </a>
+          </div>
+        </section>
+      </div>
+      <div id="left">
+        <section class="main-box">
+          <header>
+            <nav>
+              <div class="right">
+                <i onclick="togglePanel()" class="fas fa-bars"></i>
+                <div class="search">
+                  <input type="text" />
+                  <i class="fas fa-search"></i>
+                </div>
+              </div>
+              <div class="left">
+                <a href=""><i class="fas fa-bell"></i></a>
+                <a href=""><i class="fas fa-cog"></i></a>
+                <a href=""><i class="fas fa-power-off"></i></a>
+              </div>
+            </nav>
+            <div class="header-message">
+              <h3>آخرین ورود دو روز پیش</h3>
+              <a href="" class="lang-btn">فارسی</a>
+            </div>
+          </header>
+          <div class="holder">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="mini-card-report">
+                  <div class="right">
+                    <i class="fas fa-clipboard-list"></i>
+                  </div>
+                  <div class="left">
+                    <span>تکمیل انبار</span>
+                    <span>400</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="mini-card-report">
+                  <div class="right">
+                    <i class="fas fa-clipboard-list"></i>
+                  </div>
+                  <div class="left">
+                    <span>تکمیل انبار</span>
+                    <span>400</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="mini-card-report">
+                  <div class="right">
+                    <i class="fas fa-clipboard-list"></i>
+                  </div>
+                  <div class="left">
+                    <span>تکمیل انبار</span>
+                    <span>400</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="mini-card-report">
+                  <div class="right">
+                    <i class="fas fa-clipboard-list"></i>
+                  </div>
+                  <div class="left">
+                    <span>تکمیل انبار</span>
+                    <span>400</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="revenue-box">
+              <div class="head">
+                <div class="right">
+                  دآمد
+                </div>
+                <div class="left">
+                  <i class="fas fa-cog"></i>
+                  <i class="fas fa-redo"></i>
+                </div>
+              </div>
+              <div class="content">
+                <canvas id="myChart" width="300" height="150"></canvas>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.0/dist/Chart.min.js"></script>
+    <script src="./panel.js"></script>
+  
 </body>
 </html>
