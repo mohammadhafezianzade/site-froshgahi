@@ -8,9 +8,14 @@
   font-family: "iran", sans-serif;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-size: 100%;
   width: 100%;
+  overflow-x: hidden;
 }
 
 a {

@@ -24,8 +24,6 @@ function setSlide(input,index){
   
     })
       item.classList.add("active");
-      
-      
  }
 setInterval(()=>{
   SlideIndex+=1;
@@ -33,5 +31,5 @@ setInterval(()=>{
     SlideIndex=1;
   }
   setSlide(`slide${SlideIndex}`,SlideIndex);
-},4000)
+},3000)
 
