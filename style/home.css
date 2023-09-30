@@ -158,6 +158,7 @@ header .slider .buttoms i:hover {
 main .home-page-product-section {
   padding: 1.5rem 0.625rem;
   font-size: 1rem;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.95)), url(../photo/background/f87aca02b825813ea489dc985da4fd8e.jpg);
 }
 main .home-page-product-section .shopping-card {
   text-align: center;
@@ -165,6 +166,7 @@ main .home-page-product-section .shopping-card {
   margin: 0.625rem 0.9375rem;
   border-radius: 5px;
   padding: 0.625rem;
+  background-color: white;
 }
 main .home-page-product-section .shopping-card .img-sec {
   position: relative;
