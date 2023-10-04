@@ -245,8 +245,6 @@ main .home-page-product-section .shopping-card .buttons .left .extend-btn:hover 
   display: block;
 }
 main .supper-offer-section {
-  display: flex;
-  justify-content: space-between;
   padding: 20px;
   font-size: 1rem;
 }
@@ -316,7 +314,75 @@ main .supper-offer-section .banner {
 main .supper-offer-section .banner img {
   border-radius: 5px;
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
-  width: 60%;
+  width: 80%;
+}
+@media (min-width: 0px) and (max-width: 425px) {
+  main .spasification {
+    padding: 0rem 0.3125rem !important;
+  }
+  main .spasification .price-row .price {
+    margin-left: 1.25rem !important;
+  }
+  main .body .spasification .title-name {
+    margin: 3rem 0 !important;
+  }
+  main .image-container {
+    padding: 0.775rem !important;
+  }
+  main .spasification .remaining-down {
+    margin-bottom: 1.25rem;
+  }
+  main .price-row .offer {
+    padding: 0.75rem 1rem !important;
+    border-radius: 22px !important;
+  }
+  main .supper-offer-section .banner img {
+    width: 65% !important;
+    margin-top: 1.25rem !important;
+  }
+}
+@media (min-width: 420px) and (max-width: 767px) {
+  main .image-container {
+    padding: 2.5rem !important;
+    padding-bottom: 0rem;
+  }
+  main .spasification {
+    padding: 0rem 0.3125rem !important;
+  }
+  main .spasification .price-row .price {
+    margin-left: 4.25rem !important;
+  }
+  main .spasification .title-name {
+    margin: 3rem 0 !important;
+  }
+  main .spasification .remaining-down {
+    margin-bottom: 1.25rem;
+  }
+  main .price-row .offer {
+    padding: 0.75rem 1rem !important;
+    border-radius: 22px !important;
+  }
+  main .supper-offer-section .banner img {
+    width: 50% !important;
+    margin-top: 2.25rem !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  main .spasification .price-row {
+    margin-top: 0.5rem !important;
+  }
+  main .spasification .title-name {
+    margin: 2.75rem !important;
+  }
+  main .price-row .offer {
+    margin-left: 1.25rem !important;
+  }
+  main .spasification .title-name {
+    font-size: 1rem !important;
+  }
+  main .image-container img {
+    width: 78%;
+  }
 }
 
 .owl-stage-outer {
