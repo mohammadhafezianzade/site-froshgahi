@@ -389,11 +389,17 @@ main .supper-offer-section .banner img {
   direction: ltr;
 }
 
+.owl-carousel .owl-item img {
+  display: inline !important;
+}
+
 .dragble-list {
+  background: linear-gradient(rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.95)), url(../photo/background/airforce.jpg);
   padding: 1.5rem 0.625rem;
   font-size: 1rem;
 }
 .dragble-list .shopping-card {
+  background-color: white;
   text-align: center;
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
   margin: 0.625rem 0.9375rem;
